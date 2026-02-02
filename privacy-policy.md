@@ -7,7 +7,7 @@ title: Privacy Policy
 
 **Last updated:** January 30, 2026
 
-Beaver ("the App") is a personal net worth tracking app developed by Kuba Bajda. This Privacy Policy explains how your information is collected, used, and protected.
+Beaver ("the App") is a personal net worth tracking app. This Privacy Policy explains how your information is collected, used, and protected.
 
 ## Data We Collect
 
