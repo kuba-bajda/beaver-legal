@@ -1,53 +1,59 @@
 ---
-layout: default
+layout: page
 title: Privacy Policy
+permalink: /privacy/
 ---
 
-# Privacy Policy
+# Privacy Policy for Beaver
 
-**Last updated:** January 30, 2026
+**Last Updated: February 2, 2026**
 
-Beaver ("the App") is a personal net worth tracking app. This Privacy Policy explains how your information is collected, used, and protected.
+Beaver ("the App") is a personal net worth tracking app built with a privacy-first architecture. This policy explains how we handle your data to ensure transparency and security.
 
-## Data We Collect
+---
 
-The App stores the following data that you provide:
+## 1. Data We Collect
 
-- **Account information:** Account names, types, categories, currencies, and balances
-- **Check-in data:** Monthly snapshots of your account balances
-- **App preferences:** Your selected currency, net worth goal, and display settings
+### Financial Information (User-Provided)
+Beaver allows you to track account names, balances, and check-in history. This data is provided exclusively by you. 
+* **Encryption:** All financial sensitive fields are **fully encrypted** on your device using industry-standard AES-256-GCM encryption before being stored or synced.
+* **Access:** We do not have the keys to your data; we cannot see, access, or sell your financial information.
 
-## How Your Data Is Stored
+### Functional Diagnostics & Analytics
+To improve the customer journey and identify where users may get stuck, we collect **anonymous, de-identified usage data**.
+* **What we track:** Feature usage (e.g., which tabs are visited, frequency of currency picker use) and app performance metrics.
+* **Privacy Guarantee:** This data contains no financial values, account names, or personal identifiers. It is used solely to improve the App's navigation and functionality.
 
-- All data is stored **on your device** and optionally synced via **Apple iCloud (CloudKit)**.
-- If you enable iCloud, your data is stored in your private iCloud container and governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
-- If you use the partner sharing feature, selected data is shared via iCloud with the person you explicitly invite.
+### Feedback
+If you use the in-app feedback tool, your message is stored in a CloudKit public database. This information is only used to respond to your requests.
 
-## Data We Do NOT Collect
+---
 
-- We do **not** collect analytics or usage data.
-- We do **not** use third-party tracking, advertising, or analytics SDKs.
-- We do **not** sell, share, or transfer your data to third parties.
-- We do **not** have access to your financial data — it never leaves your device or your iCloud account.
+## 2. How Your Data Is Stored & Shared
 
-## Feedback
+### iCloud & CloudKit
+Your data is stored locally on your device and optionally synced via your private Apple iCloud container. This storage is governed by [Apple’s Privacy Policy](https://www.apple.com/privacy/).
 
-If you use the in-app feedback feature, your message is stored in a CloudKit public database associated with the App. No personally identifiable information is attached to feedback submissions beyond what iCloud provides internally.
+### Partner Sharing
+If you utilize the collaboration feature, selected data is shared only with the specific individuals you explicitly invite via a secure iOS CloudKit Share. You remain in control of who has access at all times.
 
-## Data Deletion
+### Encryption Keys
+Your encryption keys are generated on-device and stored securely in your private **iCloud Keychain**. This ensures that even if someone accessed your database, the content would remain unreadable.
 
-You can delete all your data at any time from **Settings > Data Management > Delete All Data** within the App. This removes all local and iCloud-synced data.
+---
 
-## Children's Privacy
+## 3. Data We Do NOT Collect
+* We do **not** sell, trade, or rent your personal or financial data to third parties.
+* We do **not** use third-party advertising SDKs or tracking "pixels."
+* We do **not** have access to your bank accounts or login credentials.
 
-The App is not directed at children under 13 and does not knowingly collect data from children.
+---
 
-## Changes to This Policy
+## 4. Your Rights & Choices
+* **Data Deletion:** You can delete all local and cloud-synced data at any time via **Settings > Data Management > Delete All Data**.
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date.
+---
 
-## Contact
-
-If you have questions about this Privacy Policy, contact us at:
-
+## 5. Contact Us
+If you have any questions regarding this Privacy Policy, please contact us at:
 **Email:** beaver.wealth@gmail.com
