@@ -50,4 +50,4 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 
 If you have questions about this Privacy Policy, contact us at:
 
-**Email:** beaver.wealth.app@gmail.com
+**Email:** beaver.wealth@gmail.com
