@@ -51,4 +51,4 @@ We may update these Terms from time to time. Continued use of the App after chan
 
 If you have questions about these Terms, contact us at:
 
-**Email:** beaver.wealth.app@gmail.com
+**Email:** beaver.wealth@gmail.com
